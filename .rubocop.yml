@@ -1,0 +1,6 @@
+AllCops:
+  TargetRubyVersion: 2.5
+
+Bundler/OrderedGems:
+  Exclude:
+    - 'Gemfile'

@@ -1,11 +1,10 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "try_until/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "try_until"
-  spec.version       = 0.1
+  spec.version       = "0.1.1"
   spec.authors       = ["William Thomas"]
   spec.email         = ["me @ williamthom.as"]
 
